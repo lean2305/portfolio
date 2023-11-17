@@ -1,0 +1,141 @@
+/* Estilo geral da página*/
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Estilos para o cabeçalho */
+.index_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o botão */
+.navbar-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+}
+
+.button.is-rounded {
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a8cff;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.button-cv {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 650;
+    
+}
+
+
+/* Estilos texto ""Desenvolvedor de Software"" e  ""Desenvolvo e codifico soluções simples e belas, e amo o que faço."" */
+
+.apresentacao{
+    padding-top: 5%;
+    text-align: center !important;
+}
+
+/* Estilos texto ""Desenvolvedor de Software"" */
+.hero.is-white .title {
+    color: #141c3a;
+}
+
+h1{
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+}
+
+.is-size-1-desktop {
+    font-size: 3rem !important;
+}
+
+/* Estilos texto ""Desenvolvo e codifico soluções simples e belas, e amo o que faço."" */
+
+.subtítulo {
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    color: #141c3a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.is-size-2-desktop {
+    font-size: 1.5rem !important;
+}
+
+
+.img-avatar{
+    padding-top: 4%;
+}
+
+.dispositivos{
+    padding-top: 4%;
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+}
+
+.quem_sou_eu {
+    background-color: #6E07F3;
+    margin: -100px;
+    padding-top: 100px;
+    margin-top: 0%;
+}
