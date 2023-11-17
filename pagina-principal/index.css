@@ -107,6 +107,11 @@ h1{
     font-family: "eurostile", sans-serif;
     font-weight: 800;
 }
+h2{
+    font-family: "eurostile", sans-serif;
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+}
 
 .is-size-1-desktop {
     font-size: 3rem !important;
@@ -158,7 +163,56 @@ h1{
     padding-top: 6%;
     padding-bottom: 6%;
     width: 60%;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
+
+.quadrado_fullstack{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-family: "europa", sans-serif;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 1%;
+}
+
+.linguagem{
+    color: #6E07F3;
+}
+
+.svg_icon{
+    padding-top: 6%;
+}
+
+.meus_projetos{
+    width: 100%; /* O elemento ocupará toda a largura disponível */
+    text-align: center;
+    margin-top: 17%;
+   
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+
+  
+.container div {
+    width: 25%; /* largura de cada quadrado */
+    height: 25%; /* altura de cada quadrado */
+    background-color: #ccc;
+    margin: 5px; /* margem entre os quadrados */
+    border-radius: 5px;
+  }
