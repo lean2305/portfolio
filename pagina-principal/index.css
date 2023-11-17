@@ -1,5 +1,10 @@
 /* Estilo geral da página*/
-body {
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
     margin: 0;
     padding: 0;
     margin-left: 5%;
@@ -134,8 +139,26 @@ h1{
 }
 
 .quem_sou_eu {
+    width: 100%; /* O elemento ocupará toda a largura disponível */
     background-color: #6E07F3;
-    margin: -100px;
-    padding-top: 100px;
     margin-top: 0%;
+    color: white;
+}
+
+.titlo_quem_sou_eu{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.is-size-5-desktop {
+    font-size: 1.25rem !important;
+}
+
+.texto_quem_sou_eu {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
