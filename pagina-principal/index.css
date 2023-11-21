@@ -210,9 +210,18 @@ h2{
 
   
 .container div {
-    width: 25%; /* largura de cada quadrado */
-    height: 25%; /* altura de cada quadrado */
-    background-color: #ccc;
+    width: 35%; /* largura de cada quadrado */
+    height: 35%; /* altura de cada quadrado */
+    
     margin: 5px; /* margem entre os quadrados */
     border-radius: 5px;
   }
+
+.projeto{
+    border-radius: 7px;
+    width: 50%; 
+    height: 50%;
+}
+
+
+
