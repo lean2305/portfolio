@@ -104,11 +104,11 @@
     margin-right: -6%;
   }
 
-.contacto{
+    .contacto{
     display: block; /* Para garantir que a margem automática funcione corretamente */
     margin-left: auto;
     margin-right: auto;
-}
+    }
 
   .h1_contacto{
     margin-left: 25%;
