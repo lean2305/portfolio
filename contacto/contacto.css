@@ -25,7 +25,7 @@
 .navbar-item {
     display: flex;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-top: 2.5%;
 }
 
 .button.is-primary.is-outlined {
@@ -118,4 +118,6 @@
     text-align: center;
     font-family: "eurostile", sans-serif;
   }
+  
+  
   
