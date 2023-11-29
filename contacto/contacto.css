@@ -119,5 +119,33 @@
     font-family: "eurostile", sans-serif;
   }
   
-  
-  
+  .container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.input-item:last-child {
+    margin-right: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 99%; /* Define a largura do textarea como 100% do contêiner pai */
+    max-width: 99%; /* Define a largura máxima como 100% para garantir que não exceda a largura do contêiner pai */
+    resize: vertical; /* Permite apenas a redimensionamento vertical do textarea */
+}
