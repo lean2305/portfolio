@@ -150,7 +150,8 @@ textarea {
     resize: vertical; /* Permite apenas a redimensionamento vertical do textarea */
 }
 
-input{
+input, textarea{
     border-color: #6E07F3;
     border-radius: 2px;
 }
+
