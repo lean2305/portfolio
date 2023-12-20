@@ -149,3 +149,8 @@ textarea {
     max-width: 99%; /* Define a largura máxima como 100% para garantir que não exceda a largura do contêiner pai */
     resize: vertical; /* Permite apenas a redimensionamento vertical do textarea */
 }
+
+input{
+    border-color: #6E07F3;
+    border-radius: 2px;
+}
