@@ -127,7 +127,7 @@
 .input-group {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 99%;
 }
 
 .input-item {
@@ -148,13 +148,29 @@ textarea {
     width: 99%; /* Define a largura do textarea como 100% do contêiner pai */
     max-width: 99%; /* Define a largura máxima como 100% para garantir que não exceda a largura do contêiner pai */
     resize: vertical; /* Permite apenas a redimensionamento vertical do textarea */
+    min-height: 30vh;
 }
 
 input, textarea{
-    border-color: #E6ECF8;
     color: #141c3a;
     box-shadow: none;
     font-size: 1.5rem;
     width: 100%;
+    border: none;
+    background-color: #E6ECF8;
+    border-radius: 5px;
 }
 
+.btn_enviar{
+    margin-top: 5%;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 7%;
+    background-color: #6E07F3;
+    color: white;
+    height: 10%;
+    width: 15%;
+    
+}
