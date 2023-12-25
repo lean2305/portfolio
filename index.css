@@ -276,3 +276,53 @@ footer {
     border-radius: 8px; /* Borda arredondada */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
   }
+
+  .blog {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 7%;
+}
+
+.container-blog {
+    position: relative;
+    text-align: center;
+    
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 100%; /* Ajusta a largura máxima para ocupar o espaço disponível */
+}
+
+.blog-img{
+    padding-top: 4%;
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+    display: block;
+    width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.aceder-blog {
+    position: absolute;
+    top: 31%; /* Ajuste a posição vertical do botão conforme necessário */
+    left: 25%; /* Ajuste a posição horizontal do botão conforme necessário */
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #6E07F3;
+    border: none;
+    border-radius: 4%;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 6%;
+    width: 18%;
+}
+
+.h1_blog {
+    text-align: center;
+    padding-top: 5%;
+}
