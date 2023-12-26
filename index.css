@@ -292,12 +292,19 @@ h2{
     clear: both;
 }
 
-
-.rodape_com_video {
-    width: 100%;
-    margin-bottom: -4%;
+@media screen and (min-width: 768px) {
+    .rodape_com_video {
+        width: 100%;
+        margin-bottom: -64%;
+    }
 }
 
+@media screen and (max-width: 767px) {
+    .rodape_com_video {
+        width: 100%;
+        margin-bottom: -31%;
+    }
+}
 
 footer {
     background-color: #333;
@@ -309,13 +316,25 @@ footer {
     margin-top: 4%;
   }
 
-  .footer_texto {
-    opacity: 0.8;
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 2%;
+  /* Estilos para dispositivos maiores (computadores, por exemplo) */
+@media screen and (min-width: 768px) {
+    .footer_texto {
+        opacity: 0.8;
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 2%;
+        
+    }
 }
 
+@media screen and (max-width: 767px) {
+    .footer_texto {
+        opacity: 0.8;
+        margin: 0 auto;
+        margin-top: 2%;
+        
+    }
+}
 
 
 .content {
