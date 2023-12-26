@@ -159,11 +159,22 @@ h2{
     padding-top: 4%;
 }
 
+@media screen and (min-width: 768px) {
 .dispositivos{
     padding-top: 4%;
     margin-bottom: -0.45rem;
     max-width: 860px;
 }
+
+}
+@media screen and (max-width: 767px) {
+    .dispositivos{
+        padding-top: 4%;
+        margin-bottom: -0.45rem;
+        max-width: 300px;
+    }
+}
+
 
 .quem_sou_eu {
     width: 100%; /* O elemento ocupará toda a largura disponível */
