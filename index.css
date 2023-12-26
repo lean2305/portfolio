@@ -296,7 +296,8 @@ h2{
 /* Estilos para dispositivos móveis (por exemplo, telas menores que 768px) */
 @media screen and (max-width: 767px) {
     .projeto {
-        height: 60%;
+        height: 100%;
+        object-fit: contain;
     }
 }
 
