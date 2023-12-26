@@ -226,9 +226,9 @@
         <section class="blog">
             
                 <div class="div_esquerda">
-                    <hr style="border: 2px solid gray;">
+                    <hr style="border: 1px solid gainsboro; margin-right: 5%;">
                     <p>105 postagens publicadas</p>
-                    <hr style="border: 2px solid gray;">
+                    <hr style="border: 1px solid gainsboro; margin-right: 5%">
                     <ul class="pagination">
                         <li><a href="javascript:void(0)">«</a></li>
                         <li><a class="w3-red" href="">1</a></li>
@@ -241,8 +241,22 @@
 
                 <div class="div_centro">
                     <div class="blog_post">
-                        
+                        <h3 class="blog_titulo">3D cube loader using html css</h3>
+                        <p class="texto_post">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão... </p>
+                        <br>
+                        <div class="post_tags">
+                            <p class="tags_p">#html</p>
+                            <p class="tags_p">#php</p>
+                        </div>
                     </div>
+                    <div class="blog_post">
+                        <h3 class="blog_titulo">3D cube loader using html css</h3>
+                        <p class="texto_post">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão... </p>
+                        <br>
+                        <div class="post_tags">
+                            <p class="tags_p">#html</p>
+                            <p class="tags_p">#php</p>
+                        </div>
                 </div>
 
                 <div class="div_direita">
@@ -251,7 +265,23 @@
             
       
         </section>
-    
+        
+        <script>
+            function getRandomLightColor() {
+                const letters = '89ABCDEF'; // Ajustando para cores mais claras
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 8)];
+                }
+                return color;
+            }
+        
+            const paragraphs = document.querySelectorAll('.post_tags p');
+            paragraphs.forEach(paragraph => {
+                const randomColor = getRandomLightColor();
+                paragraph.style.backgroundColor = randomColor;
+            });
+        </script>
     </body>
     
 </hmtl>

@@ -96,6 +96,7 @@
 
 .div_esquerda {
     width: 23%;
+    padding-top: 1%;
     
     
 }
@@ -128,5 +129,55 @@
 }
 
 
+.blog_post{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #6E07F3;
+}
+
+.blog_titulo{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2%;
+    color: white;
+    
+}
 
 
+.texto_post{
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+}
+
+.btn_like{
+    height: 15%;
+    width: 12%;
+    border: none;
+    background-color: #6E07F3;
+}
+
+.img_like{
+    height: 55%;
+    width: 55%;
+}
+
+.contador_like{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.post_tags {
+    display: flex;
+    padding-left: 2%;
+    
+}
+
+.post_tags p {
+    margin-right: 20px; /* Espaço entre os elementos */
+}
+
+.tags_p{
+    padding: 3px;
+    border-radius: 3px;
+}
