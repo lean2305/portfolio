@@ -96,7 +96,7 @@
 
 .div_esquerda {
     width: 23%;
-    padding-top: 1%;
+    padding-top: 1.49%;
     
     
 }
@@ -180,4 +180,12 @@
 .tags_p{
     padding: 3px;
     border-radius: 3px;
+}
+
+
+.comentarios {
+   
+    padding-left: 5%;
+    padding-top: 1%;
+    
 }

@@ -241,8 +241,8 @@
 
                 <div class="div_centro">
                     <div class="blog_post">
-                        <h3 class="blog_titulo">3D cube loader using html css</h3>
-                        <p class="texto_post">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão... </p>
+                        <h3 class="blog_titulo">Explorando Novos Horizontes em HTML: Uma Jornada Criativa!</h3>
+                        <p class="texto_post">À medida que mergulhamos nos mundos fascinantes da programação, o HTML se revela como uma tela em branco pronta para receber nossa criatividade. 💻✨ Desde experimentos simples até criações complexas, a linguagem HTML tem sido a ponte para transformar ideias em realidade digital. É incrível testemunhar como cada linha de código pode ganhar vida e dar forma a algo totalmente novo. Compartilhe conosco suas experiências explorando os limites do HTML e inspire-se na jornada de descoberta nesse incrível universo da programação!</p>
                         <br>
                         <div class="post_tags">
                             <p class="tags_p">#html</p>
@@ -250,24 +250,44 @@
                         </div>
                     </div>
                     <div class="blog_post">
-                        <h3 class="blog_titulo">3D cube loader using html css</h3>
-                        <p class="texto_post">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão... </p>
+                        <h3 class="blog_titulo">HTML Além dos Limites: Criatividade em Código</h3>
+                        <p class="texto_post">O HTML é mais do que simples tags e elementos; é uma linguagem que abre portas para a criatividade ilimitada. 💡💻 Desde a estruturação de páginas até a construção de experiências interativas, cada linha de código nos leva além dos limites do convencional. Queremos conhecer suas aventuras mais ousadas com HTML. Compartilhe seus projetos favoritos, suas técnicas inovadoras ou até mesmo suas dúvidas – juntos, vamos explorar os horizontes inexplorados desse universo digital!</p>
+                        
                         <br>
                         <div class="post_tags">
                             <p class="tags_p">#html</p>
                             <p class="tags_p">#php</p>
                         </div>
-                </div>
+                </div></div>
 
-                
+
                 <div class="div_direita">
-
+                    <div class="comentarios">
+                        <p class="tags_p">#Comentarios</p>
+                        <br>
+                        <hr>
+                        <p >Adorei como essa ideia em HTML transformou algo simples em algo incrivelmente interativo! 💻✨</p>
+                        <hr>
+                        <p >Quem mais está impressionado com a criatividade em PHP aqui? Simplesmente brilhante! 🌟👏</p>
+                        <hr>
+                        
+                    </div>
                 </div>
             
       
         </section>
         
         <script>
+            let textos = document.querySelectorAll('.texto_post');
+
+            textos.forEach((texto) => {
+                let textoCompleto = texto.textContent;
+                let textoLimitado = textoCompleto.slice(0, 220);
+                texto.textContent = textoLimitado + (textoCompleto.length > 220 ? '...' : '');
+            });
+
+
+
             function getRandomLightColor() {
                 const letters = '89ABCDEF'; // Ajustando para cores mais claras
                 let color = '#';
@@ -283,6 +303,7 @@
                 paragraph.style.backgroundColor = randomColor;
             });
         </script>
+        
     </body>
     
 </hmtl>
