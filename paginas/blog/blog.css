@@ -80,7 +80,52 @@
     margin-right: -6%;
   }
 
+
   
+  .blog {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 4%;
+}
+
+.div_esquerda, .div_direita, .div_centro {
+    height: 100px; /* Ajuste a altura conforme necessário */
+    box-sizing: border-box;
+}
+
+.div_esquerda {
+    width: 23%;
+    
+    
+}
+
+.div_centro {
+    width: 54%;
+    
+   
+}
+
+.div_direita {
+    width: 23%;
+    
+    
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pagination li, .pagination2 li, .pagination3 li {
+    display: inline;
+}
 
 
 
