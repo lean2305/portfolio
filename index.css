@@ -402,19 +402,38 @@ footer {
     height: auto; /* Mantém a proporção da imagem */
 }
 
-.aceder-blog {
-    position: absolute;
-    top: 31%; /* Ajuste a posição vertical do botão conforme necessário */
-    left: 25%; /* Ajuste a posição horizontal do botão conforme necessário */
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: #6E07F3;
-    border: none;
-    border-radius: 4%;
-    padding: 10px 20px;
-    cursor: pointer;
-    height: 6%;
-    width: 18%;
+@media screen and (min-width: 768px) {
+    .aceder-blog {
+        position: absolute;
+        top: 31%; /* Ajuste a posição vertical do botão conforme necessário */
+        left: 25%; /* Ajuste a posição horizontal do botão conforme necessário */
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: #6E07F3;
+        border: none;
+        border-radius: 4%;
+        padding: 10px 20px;
+        cursor: pointer;
+        height: 6%;
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aceder-blog {
+        position: absolute;
+        top: 31%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: #6E07F3;
+        border: none;
+        border-radius: 4%;
+        /* padding: 10px 20px; */
+        cursor: pointer;
+        height: 6%;
+        width: 18%;
+    }
 }
 
 .h1_blog {
