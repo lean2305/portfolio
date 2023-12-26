@@ -21,11 +21,33 @@
     padding: 20px;
 }
 
+@media screen and (max-width: 767px) {
+    .svg_logo{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .svg_logo{
+        width: 8%;
+    }
+}
+
+
 /* Estilos para o botão */
-.navbar-item {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 10px;
+@media screen and (min-width: 768px) {
+    .navbar-item {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-item {
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
 .button.is-primary.is-outlined {
@@ -223,6 +245,13 @@ h2{
     height: 100%;
     display: block;
     object-fit: cover; /* Para ajustar o tamanho da imagem dentro do contêiner */
+}
+
+/* Estilos para dispositivos móveis (por exemplo, telas menores que 768px) */
+@media screen and (max-width: 767px) {
+    .projeto {
+        height: 60%;
+    }
 }
 
 /* Ajusta o número de divs por linha */
