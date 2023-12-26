@@ -262,14 +262,27 @@ h2{
     margin-right: 5%;
 }
 
-.container div {
-    width: calc(30% - 20px); /* largura de cada quadrado com margens */
-    margin: 5px;
-    border-radius: 5px;
-    position: relative;
-    box-sizing: border-box;
-    height: 200px; /* Altura fixa para os divs */
-    overflow: hidden; /* Para esconder parte da imagem se necessário */
+@media screen and (min-width: 768px) {
+    .container div {
+        width: calc(30% - 20px); /* largura de cada quadrado com margens */
+        margin: 5px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        height: 200px; /* Altura fixa para os divs */
+        overflow: hidden; /* Para esconder parte da imagem se necessário */
+    }
+}
+@media screen and (max-width: 767px) {
+    .container div {
+        /* width: calc(30% - 20px); */
+        margin: 5px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        height: 200px;
+        overflow: hidden;
+    }
 }
 
 .projeto {
