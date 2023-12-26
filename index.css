@@ -356,7 +356,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Define a altura total da viewport */
+    height: 60vh; /* Define a altura total da viewport */
   }
 
   .cv_video{
