@@ -321,14 +321,15 @@ h2{
 }
 
 footer {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
     background-color: #6E07F3;
-    bottom: 0;
-    margin-top: 4%;
-  }
+    /* bottom: 0; */
+    margin-top: 70%;
+    position: absolute;
+}
+
 
   /* Estilos para dispositivos maiores (computadores, por exemplo) */
 @media screen and (min-width: 768px) {
