@@ -236,12 +236,22 @@ h2{
     padding-top: 6%;
 }
 
-.meus_projetos{
-    width: 100%; /* O elemento ocupará toda a largura disponível */
-    text-align: center;
-    margin-top: 17%;
-   
-   
+@media screen and (min-width: 768px) {
+    .meus_projetos{
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        text-align: center;
+        margin-top: 17%;
+    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .meus_projetos{
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        text-align: center;
+        margin-top: 17%;
+        padding-top: 70%;
+    }
 }
 .container {
     display: flex;
