@@ -175,13 +175,25 @@ h2{
     }
 }
 
-
-.quem_sou_eu {
-    width: 100%; /* O elemento ocupará toda a largura disponível */
-    background-color: #6E07F3;
-    margin-top: 0%;
-    color: white;
+@media screen and (min-width: 768px) {
+    .quem_sou_eu {
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        background-color: #6E07F3;
+        margin-top: 0%;
+        color: white;
+    }
 }
+
+@media screen and (max-width: 767px) {
+    .quem_sou_eu {
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        background-color: #6E07F3;
+        margin-top: 0%;
+        color: white;
+        padding-bottom: 50%;
+    }
+}
+
 
 .titlo_quem_sou_eu{
     text-align: center;
