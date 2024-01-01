@@ -65,6 +65,12 @@
     margin-left: 10px;
 }
 
+.pub_img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 70vh;
+}
 
 .avatar {
     width: 5%;
@@ -79,14 +85,80 @@
     margin-left: -6%;
     margin-right: -6%;
   }
-
-
-  .blog {
+  .publicacao {
     display: flex;
-    flex-wrap: wrap;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 4%;
-    justify-content: space-between; /* Espaço entre os elementos */
-    gap: 2%; /* Espaço horizontal entre os elementos */
 }
+
+.publicacao_esquerda {
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    border: 2px solid #6E07F3;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 5%; /* Adiciona espaço entre a publicação e o anúncio */
+}
+
+.anuncio {
+    width: 25%; /* Define a largura do espaço do anúncio */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    border: 2px solid #6E07F3;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anuncio h2 {
+    font-size: 24px;
+    color: #6E07F3;
+    margin-bottom: 15px;
+}
+
+
+.titulo_publicacao{
+    font-size: 24px;
+    color: #6E07F3;
+    margin-bottom: 15px;
+}
+.botao-retroceder {
+    margin-top: 3%;
+    width: 15vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #6E07F3;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #6E07F3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .botao-retroceder:hover {
+    background-color: black;
+    border: 2px solid black;
+  }
+
+  .botao-retroceder svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-right: 5px;
+    transform: scaleX(-1);
+  }
