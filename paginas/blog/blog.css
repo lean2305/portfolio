@@ -108,6 +108,7 @@
 .post_titulo,
 .post_texto {
     padding-bottom: 2%;
+    text-align: center;
     color: black;
     padding-left: 2%;
     padding-right: 2%;

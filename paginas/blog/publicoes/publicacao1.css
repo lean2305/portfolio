@@ -94,7 +94,7 @@
 
 .publicacao_esquerda {
     width: 70%;
-    text-align: center;
+    
     padding: 30px;
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -129,6 +129,7 @@
     font-size: 24px;
     color: #6E07F3;
     margin-bottom: 15px;
+    text-align: center;
 }
 .botao-retroceder {
     margin-top: 3%;

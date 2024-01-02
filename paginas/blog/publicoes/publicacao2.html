@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Leandro Oliveira | Developer</title>
-        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="publicacao1.css">
         <link rel="icon" href="./img/logo.ico" type="image/png">
 
     </head>
@@ -209,7 +209,7 @@
                     z"/>
                     </svg>
                     
-                    <a class="navbar-item" href="../../index.html">
+                    <a class="navbar-item" href="../../blog/blog.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" class="svg_x">
                             <line x1="10" y1="10" x2="90" y2="90" stroke="#6E07F3" stroke-width="13"/>
                             <line x1="90" y1="10" x2="10" y2="90" stroke="#6E07F3" stroke-width="13"/>
@@ -219,26 +219,64 @@
             </header>
 
             <hr class="hr_avatar">
-            <img class="avatar" src="../../img/mf-avatar.svg">
+            <img class="avatar" src="../../../img/mf-avatar.svg">
            
         </section>
+        <a href="#" class="botao-retroceder" id="botaoRetroceder">
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 10L7 18V2L15 10Z" fill="currentColor"/>
+            </svg>
+            Retroceder
+          </a>
         
-        <section class="blog">
+
+            <script>
+                document.getElementById("botaoRetroceder").addEventListener("click", function() {
+                window.history.back();
+                });
+                    </script>
+
+        <section class="publicacao">
             
-            
-            <a href="./publicoes/publicacao1.html" class="post">
-                <h1 class="post_titulo">Apresentação do Portfólio no Website</h1>
-                <img class="post_img" src="./img_blog/website.png">
-            </a> 
-            <a href="./publicoes/publicacao2.html" class="post">
-                <h1 class="post_titulo">Como centralizar uma div no centro usando CSS</h1>
-                <img class="post_img" src="./img_blog/div.png">
-            </a> 
-            <a href="./publicoes/publicacao1.html" class="post">
-                <h1 class="post_titulo">Apresentação do Portfólio no Website</h1>
-                <img class="post_img" src="./img_blog/website.png">
-            </a> 
-          
+            <div class="publicacao_esquerda">
+                <h1 class="titulo_publicacao">Apresentação do Portfólio no Website</h1>
+                <img class="pub_img" src=".././img_blog/div.png">
+                <p>Centrar elementos na página web é uma tarefa comum e fundamental para muitos desenvolvedores. Uma maneira eficaz de centralizar uma div no centro do corpo de uma página é através do uso de estilos CSS, especialmente com o poderoso recurso chamado flexbox.</p>
+                <h2>Usando Flexbox para Centralização</h2>
+                <p>O flexbox é uma ferramenta versátil para layouts responsivos e permite alinhar e distribuir elementos facilmente. Aqui está um exemplo simples de como centralizar uma div no centro do body usando flexbox:</p>
+                <p>body, html {<br/>
+                    height: 100%;<br/>
+                    margin: 0;<br/>
+                    display: flex;<br/>
+                    justify-content: center;<br/>
+                    align-items: center;<br/>
+                  }<br/>
+                  <br/>
+                  .centered-div {<br/>
+                    width: 200px;<br/>
+                    height: 200px;<br/>
+                    background-color: #f0f0f0;<br/>
+                    /* Outros estilos conforme necessário */<br/>
+                  }<br/>
+                  </p>
+                <h2>Como Funciona</h2>
+                <p>•body, html - Definimos a altura como 100% para garantir que o body e o html ocupem toda a altura disponível da página.</p>
+                <p>•display: flex - Isso permite que os elementos dentro do body se comportem como um contêiner flexível.</p>
+                <p>•justify-content: center e align-items: center - Essas propriedades centralizam a div tanto horizontal quanto verticalmente dentro do body.</p>
+                <h2>Personalização</h2>
+                <p>Você pode personalizar a div centralizada ajustando sua largura, altura e outros estilos de acordo com suas preferências visuais e necessidades de layout.<br/><br/>
+
+                    Lembrando que o exemplo fornecido é uma base para começar a explorar o uso do flexbox para centralizar elementos em suas páginas web.<br/><br/>
+                    
+                    Experimente e adapte esse método para criar layouts consistentes e visualmente atraentes para seus projetos!<br/><br/>
+                    
+                    Espero que isso seja útil para você começar a centralizar elementos em suas páginas web!</p>
+            </div>
+            <div class="anuncio">
+                <h2>AD de Anúncio</h2>
+                <!-- Conteúdo do anúncio -->
+                <p>Aqui você pode adicionar o conteúdo do seu anúncio.</p>
+            </div>
         </section>
         
         
