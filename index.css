@@ -1,0 +1,455 @@
+/* Estilo geral da página*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Estilos para o cabeçalho */
+.index_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .svg_logo{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .svg_logo{
+        width: 8%;
+    }
+}
+
+
+/* Estilos para o botão */
+@media screen and (min-width: 768px) {
+    .navbar-item {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-item {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+}
+
+.button.is-rounded {
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a8cff;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.button-cv {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 650;
+    
+}
+
+
+/* Estilos texto ""Desenvolvedor de Software"" e  ""Desenvolvo e codifico soluções simples e belas, e amo o que faço."" */
+
+.apresentacao{
+    padding-top: 5%;
+    text-align: center !important;
+}
+
+/* Estilos texto ""Desenvolvedor de Software"" */
+.hero.is-white .title {
+    color: #141c3a;
+}
+
+h1{
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+}
+h2{
+    font-family: "eurostile", sans-serif;
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+}
+
+.is-size-1-desktop {
+    font-size: 3rem !important;
+}
+
+/* Estilos texto ""Desenvolvo e codifico soluções simples e belas, e amo o que faço."" */
+
+.subtítulo {
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    color: #141c3a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.is-size-2-desktop {
+    font-size: 1.5rem !important;
+}
+
+
+.img-avatar{
+    padding-top: 4%;
+}
+
+@media screen and (min-width: 768px) {
+.dispositivos{
+    padding-top: 4%;
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+}
+
+}
+@media screen and (max-width: 767px) {
+    .dispositivos{
+        padding-top: 4%;
+        margin-bottom: -0.45rem;
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quem_sou_eu {
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        background-color: #6E07F3;
+        margin-top: 0%;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .quem_sou_eu {
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        background-color: #6E07F3;
+        margin-top: 0%;
+        color: white;
+        padding-bottom: 50%;
+    }
+}
+
+
+.titlo_quem_sou_eu{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.is-size-5-desktop {
+    font-size: 1.25rem !important;
+}
+
+.texto_quem_sou_eu {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 60%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.quadrado_fullstack{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-family: "europa", sans-serif;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 1%;
+}
+
+.linguagem{
+    color: #6E07F3;
+}
+
+.svg_icon{
+    padding-top: 6%;
+}
+
+@media screen and (min-width: 768px) {
+    .meus_projetos{
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        text-align: center;
+        margin-top: 17%;
+    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .meus_projetos{
+        width: 100%; /* O elemento ocupará toda a largura disponível */
+        text-align: center;
+        margin-top: 17%;
+        padding-top: 70%;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .container div {
+        width: calc(30% - 20px); /* largura de cada quadrado com margens */
+        margin: 5px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        height: 200px; /* Altura fixa para os divs */
+        overflow: hidden; /* Para esconder parte da imagem se necessário */
+    }
+}
+@media screen and (max-width: 767px) {
+    .container div {
+        /* width: calc(30% - 20px); */
+        margin: 5px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        height: 200px;
+        overflow: hidden;
+    }
+}
+
+.projeto {
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Para ajustar o tamanho da imagem dentro do contêiner */
+}
+
+/* Estilos para dispositivos móveis (por exemplo, telas menores que 768px) */
+@media screen and (max-width: 767px) {
+    .projeto {
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* Ajusta o número de divs por linha */
+.container div:nth-child(3n + 1) {
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape_com_video {
+        width: 100%;
+        margin-bottom: -64%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rodape_com_video {
+        width: 100%;
+        margin-bottom: -31%;
+    }
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #6E07F3;
+    /* bottom: 0; */
+    margin-top: 70%;
+    position: absolute;
+}
+
+
+  /* Estilos para dispositivos maiores (computadores, por exemplo) */
+@media screen and (min-width: 768px) {
+    .footer_texto {
+        opacity: 0.8;
+        width: 20%;
+        margin: 0 auto;
+        margin-top: 2%;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer_texto {
+        opacity: 0.8;
+        margin: 0 auto;
+        margin-top: 2%;
+        
+    }
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Define a altura total da viewport */
+  }
+
+  .cv_video{
+    padding-top: 12%;
+    font-size: 2.25rem !important;
+    text-align: center;
+    
+  }
+
+  
+  video {
+    border: 4px solid #ddd; /* Borda ao redor do vídeo */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+
+  .blog {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 7%;
+}
+
+.container-blog {
+    position: relative;
+    text-align: center;
+    
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 100%; /* Ajusta a largura máxima para ocupar o espaço disponível */
+}
+
+.blog-img{
+    padding-top: 4%;
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+    display: block;
+    width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+@media screen and (min-width: 768px) {
+    .aceder-blog {
+        position: absolute;
+        top: 31%; /* Ajuste a posição vertical do botão conforme necessário */
+        left: 25%; /* Ajuste a posição horizontal do botão conforme necessário */
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: #6E07F3;
+        border: none;
+        border-radius: 4%;
+        padding: 10px 20px;
+        cursor: pointer;
+        height: 6%;
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aceder-blog {
+        position: absolute;
+        top: 31%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: #6E07F3;
+        border: none;
+        border-radius: 4%;
+        /* padding: 10px 20px; */
+        cursor: pointer;
+        height: 6%;
+        width: 18%;
+    }
+}
+
+.h1_blog {
+    text-align: center;
+    padding-top: 5%;
+}
+@media screen and (min-width: 768px) {
+    .video_eu{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video_eu{
+        width: 90%;
+        margin-top: -70%;
+}
+    }

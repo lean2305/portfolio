@@ -1,0 +1,180 @@
+/* Estilo geral da página*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Estilos para o cabeçalho */
+.index_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o botão */
+.navbar-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2.5%;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+}
+
+.button.is-rounded {
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a8cff;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.button-cv {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 650;
+    
+}
+
+.avatar {
+    width: 5%;
+    height: 5%;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+  }
+
+  .hr_avatar{
+    margin-left: -6%;
+    margin-right: -6%;
+  }
+
+    .contacto{
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  .h1_contacto{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 400;
+    font-size: 2rem !important;
+    text-align: center;
+    font-family: "eurostile", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.input-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.input-item:last-child {
+    margin-right: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 99%; /* Define a largura do textarea como 100% do contêiner pai */
+    max-width: 99%; /* Define a largura máxima como 100% para garantir que não exceda a largura do contêiner pai */
+    resize: vertical; /* Permite apenas a redimensionamento vertical do textarea */
+    min-height: 30vh;
+}
+
+input, textarea{
+    color: #141c3a;
+    box-shadow: none;
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
+    background-color: #E6ECF8;
+    border-radius: 5px;
+}
+
+.btn_enviar{
+    margin-top: 5%;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 7%;
+    background-color: #6E07F3;
+    color: white;
+    height: 10%;
+    width: 15%;
+    
+}
+
+
+
+

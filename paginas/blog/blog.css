@@ -1,0 +1,129 @@
+/* Estilo geral da página*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Estilos para o cabeçalho */
+.index_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o botão */
+.navbar-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2.5%;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+}
+
+.button.is-rounded {
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a8cff;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+    font-family: "europa", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.avatar {
+    width: 5%;
+    height: 5%;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+  }
+
+  .hr_avatar{
+    margin-left: -6%;
+    margin-right: -6%;
+  }
+
+
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 4%;
+    justify-content: space-between; /* Espaço entre os elementos */
+    gap: 2%; /* Espaço horizontal entre os elementos */
+}
+.post {
+    flex: 0 0 calc(33.33% - 2%);
+    max-width: calc(33.33% - 2%);
+    height: 50vh;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    display: flex; /* Adicionando display flex para centralizar conteúdo */
+    flex-direction: column; /* Alinhar conteúdo verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+}
+
+
+.post_titulo,
+.post_texto {
+    padding-bottom: 2%;
+    text-align: center;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    display: flex; /* Adicionando display flex para centralizar conteúdo */
+    justify-content: center; /* Centralizar horizontalmente */
+}
+
+
+.post_img {
+    width: 70%;
+    height: 70%;
+    display: flex; /* Adicionando display flex para centralizar conteúdo */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
